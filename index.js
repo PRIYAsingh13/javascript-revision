@@ -36,7 +36,7 @@
 
 
 // ================. .================
-// let input = "yess";
+// let input = "yes";
 
 // if (input === 1) {
 //     document.write("countinue...");
@@ -62,5 +62,48 @@
 
 //================. .=================
 
+// switch (input) {
+//     case 1:
+//         document.write("countinue...");
+//         break;
+//     case "y":
+//         document.write("priya")
+//     case "yes":
+//         break;
+//         document.write("singh")
+//     case "0":
+//         document.write("End...")
+
+// }
+
+// ===========. .=====================
+
+// let counter = 1;
+
+// while(counter <=  10){
+//     document.write("priya");
+//     counter++;
+
+// }
+
+// ================. .=============================
+
+// let counter = 1;
+// let sum = 0;
+
+// while(counter <= 100){
+//     if(counter % 2 == 0){
+//         sum = sum + counter;
+//     }
+//     counter++
+// }
+// document.write(sum);
+
+// =================. .================
+// do{
+    // document.write('priya');
+    // counter++;
+// 
+// }while(counter <= 10);
 
 
