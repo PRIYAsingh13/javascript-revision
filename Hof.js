@@ -20,5 +20,9 @@ const hof = (name) =>{
     }
 }
 
-const print1 = hof("priya");
-print1("UI")
+// const print1 = hof("priya");
+// print1("UI")
+
+hof("priya")("UI")
+hof("singh")("UI")
+hof("hof")("UI")
