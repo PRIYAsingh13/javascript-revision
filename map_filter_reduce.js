@@ -9,10 +9,17 @@
 
 // ========= map() =======
 
-// let arr = [2,4,5,8]
+let arr = [2,4,5,8]
 
 // let arr1 = arr.map(function(val){
 //     return val * 3;
+// })
+// console.log(arr1)
+
+// ========\\========
+// let arr1 = arr.map((value,index,array)=>{
+// console.log(value,index,array)
+//     return value + 1;
 // })
 // console.log(arr1)
 
@@ -66,12 +73,12 @@
 
 // ========== reduce() ==========
 
-let arr = [1,4,6,8,9]
+// let arr = [1,4,6,8,9]
 
-let arr1 = arr.reduce((h1,h2) =>{
-    return h1+h2;
-})
-console.log(arr1)
+// let arr1 = arr.reduce((h1,h2) =>{
+//     return h1+h2;
+// })
+// console.log(arr1)
 
 // const reduce =(h1,h2)=>{
 //     return h1+h2
