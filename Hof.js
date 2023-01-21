@@ -20,8 +20,8 @@
 //     }
 // }
 
-// // const print1 = hof("priya");
-// // print1("UI")
+// const print1 = hof("priya");
+// print1("UI")
 
 // hof("priya")("UI")
 // hof("singh")("UI")
@@ -50,20 +50,27 @@
 
 // ========custom hof=========
 
-let data2 = [2,5,7,4]
+// let data2 = [2,5,7,4]
 
-Array.prototype.customMap = function(x){
-    const result = []
-    for(let i=0; i<this.length;i++){
-        result.push(x(this[i]))
-    }
-    return result
+// Array.prototype.customMap = function(x){
+//     const result = []
+//     for(let i=0; i<this.length;i++){
+//         result.push(x(this[i]))
+//     }
+//     return result
+// }
+
+// let output = data2.customMap((item) => item+20)
+// console.log(output)
+
+function hof(){
+    return "priya"
 }
+function greeting(helloMessage,name){
+    console.log(helloMessage() + name);
 
-let output = data2.customMap((item) => item+20)
-console.log(output)
 
-
+}
 
 
 
